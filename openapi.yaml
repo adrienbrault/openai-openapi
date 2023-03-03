@@ -2375,7 +2375,8 @@ components:
         max_tokens:
           description: |
             The maximum number of tokens allowed for the generated answer. By default, the number of tokens the model can return will be (4096 - prompt tokens).
-          default: inf
+          default: null
+          nullable: true
           type: integer
         presence_penalty:
           type: number
