@@ -2266,6 +2266,7 @@ components:
                       type: integer
               finish_reason:
                 type: string
+                nullable: true
         usage:
           type: object
           properties:
